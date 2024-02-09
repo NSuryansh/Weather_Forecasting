@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Weather Forcaster.css">
+
+<body>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Air quality</li>
+            <li>Weekly</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+
+    <header>
+
+        <div class="title">
+            Weather Forecaster
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="search">
+                <input type="text" name="search_city" id="search_city" placeholder="Indore">
+                <img src="images.png" alt="" height="25px" onclick="weather()">
+            </div>
+
+            <div class="output" id="output1">
+                <div id="city_name"> </div>
+                <div id="description"> </div>
+                <!-- <div  id="Temperatue">25 C</div> -->
+                <div id="temp"> Temp: </div>
+                <div id="feel_like">Feel like: </div>
+                <div id="humidity"> Humidity: </div>
+                <div id="visibility">Visibility: </div>
+                <div id="speed">Wind speed: </div>
+                <div id="deg">Wind Directionn: </div>
+            </div>
+
+            <div class="line"></div>
+            <div class="heading">
+                Weather of some famous cities
+            </div>
+
+            <div class="famous_cities">
+                
+                <div class="famous" id="mumbai"> MUMBAI
+                    <div class="famous_data" id="description1Mum"></div>
+                    <div class="famous_data" id="Temperatue">25 C</div>
+                    <div class="famous_data" id="tempMum"> Temp: </div>
+                    <div class="famous_data" id="feel_likeMum">Feel like: </div>
+                    <div class="famous_data" id="humidityMum"> Humidity: </div>
+                    <div class="famous_data" id="visibilityMum">Visibility: </div>
+                    <div class="famous_data" id="speedMum">Wind speed: </div>
+                    <div class="famous_data" id="degMum">Wind Directionn: </div>
+                </div>
+
+                <div class="famous" id="delhi"> DELHI
+                    <div class="famous_data" id="description1Del"></div>
+                    <div class="famous_data" id="Temperatue">25 C</div>
+                    <div class="famous_data" id="tempDel"> Temp: </div>
+                    <div class="famous_data" id="feel_likeDel">Feel like: </div>
+                    <div class="famous_data" id="humidityDel"> Humidity: </div>
+                    <div class="famous_data" id="visibilityDel">Visibility: </div>
+                    <div class="famous_data" id="speedDel">Wind speed: </div>
+                    <div class="famous_data" id="degDel">Wind Directionn: </div>
+                </div>
+
+                <div class="famous" id="london"> LONDON
+                    <div class="famous_data" id="description1Ln"></div>
+                    <div class="famous_data" id="Temperatue">25 C</div>
+                    <div class="famous_data" id="tempLn"> Temp: </div>
+                    <div class="famous_data" id="feel_likeLn">Feel like: </div>
+                    <div class="famous_data" id="humidityLn"> Humidity: </div>
+                    <div class="famous_data" id="visibilityLn">Visibility: </div>
+                    <div class="famous_data" id="speedLn">Wind speed: </div>
+                    <div class="famous_data" id="degLn">Wind Directionn: </div>
+                </div>
+
+                <div class="famous" id="new_york"> NEW YORK
+                    <div class="famous_data" id="description1Ny"></div>
+                    <div class="famous_data" id="Temperatue">25 C</div>
+                    <div class="famous_data" id="tempNy"> Temp: </div>
+                    <div class="famous_data" id="feel_likeNy">Feel like: </div>
+                    <div class="famous_data" id="humidityNy"> Humidity: </div>
+                    <div class="famous_data" id="visibilityNy">Visibility: </div>
+                    <div class="famous_data" id="speedNy">Wind speed: </div>
+                    <div class="famous_data" id="degNy">Wind Directionn: </div>
+                </div>
+
+                <div class="famous" id="paris">PARIS
+                    <div class="famous_data" id="description1Pr"></div>
+                    <div class="famous_data" id="Temperatue">25 C</div>
+                    <div class="famous_data" id="tempPr"> Temp: </div>
+                    <div class="famous_data" id="feel_likePr">Feel like: </div>
+                    <div class="famous_data" id="humidityPr"> Humidity: </div>
+                    <div class="famous_data" id="visibilityPr">Visibility: </div>
+                    <div class="famous_data" id="speedPr">Wind speed: </div>
+                    <div class="famous_data" id="degPr">Wind Directionn: </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="Weather Forcater.js"></script>
+</body>
+
+</html>
